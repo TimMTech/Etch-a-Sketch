@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-a-Sketch</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div id=#Screen>
+        <h1>ETCH-A SKETCH</h1>
+        <div id="Modes">
+            <div class="color-mode">Color Mode
+                <label for="colorpicker"></label>
+                <input type="color" id="colorpicker" value="#000000">
+            </div>
+            <div class="random-mode">Rainbow Mode</div>
+            <div class="eraser">Eraser</div>
+            <div class="clear">Clear</div>
+            <div class="adjustment">
+                <label class="slider-value" for="sizes">16 x 16</label>
+                <div><input id="sizes" type="range" value='16'></div>
+            </div>
+        </div>
+        <div class="bg-image">
+            <div id="container">
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <h2>Copyright @ 2022 Tim Mukhamedov</h2>
+    </footer>
+</body>
+
+</html>
